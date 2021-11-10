@@ -26,7 +26,8 @@ In implemention, the keypoint features are extracted by the standard VGG16-bn ba
 
 ## Experiments
 ### Training
-To train the model on different dataset, please run `python train.py --dataset {Pascal_VOC, Willow, SPair_71k}  --lr 0.0001`
+To train the model on different dataset, please run  
+`python train.py --dataset {Pascal_VOC, Willow, SPair_71k}  --lr 0.0001`
 ### Testing
 The pretrained models are available on [[Google drive]](https://drive.google.com/file/d/1ndqEblJAPTfaJyPOU3mzn0BP51r0ouW4/view?usp=sharing). 
 To evaluate our model, please run  
@@ -40,4 +41,4 @@ If you use this code for your research, please consider citing:
   author={Liu, He and Wang, Tao and Li, Yidong and Lang, Congyan and Jin, Yi and Ling, Haibin},  
   journal={arXiv preprint arXiv:2109.00240},  
   year={2021}  
-}
+} 
