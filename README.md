@@ -2,7 +2,7 @@
 
 ## Overview of GLAM architecture
 ![image](https://user-images.githubusercontent.com/86004891/141059865-e6490804-6eae-4fdb-9499-ed4b36e5fa82.png)
-For more details, please download our paper on [arXiv](https://arxiv.org/abs/2109.00240)
+For more details, please download our paper on [arXiv](https://arxiv.org/abs/2109.00240). If you have any question on the code, please contact me through the E-mail: liuhe1996@bjtu.edu.cn
 
 ## Requirements
 pytorch           1.8.1+cu111  
