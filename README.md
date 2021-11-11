@@ -51,6 +51,7 @@ aero | bike | bird | boat | bott.| bus  |  car | cat  | chair| cow  | dog | hor.
 ---- | ---- | ---- | ---- | ---- | -----| ---- | ---- | ---- | ---- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 70.3 | 61.3 | 90.3 | 88.0 | 70.9 | 98.0 | 90.0 | 74.6 | 78.5 | 85.0 | 74.5| 76.9 | 75.8 | 79.6 | 99.2 | 79.1 | 92.2 | 99.9 | 82.5 |
 
+
 ## BibTeX
 If you use this code for your research, please consider citing:
 
