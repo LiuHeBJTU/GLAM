@@ -29,9 +29,27 @@ In implementation, the keypoint features are extracted by the standard VGG16-bn 
 To train the model on different datasets, please run  
 `python train.py --dataset {Pascal_VOC, Willow, SPair_71k}  --lr 0.0001`
 ### Testing
-The pretrained models are available on [[Google drive]](https://drive.google.com/file/d/1ndqEblJAPTfaJyPOU3mzn0BP51r0ouW4/view?usp=sharing). 
+The pretrained models are available on [[Google drive]](https://drive.google.com/file/d/1HBIvwjegb9SGKlIzrEVtpkeTc29fL9X_/view?usp=sharing). 
 To evaluate our model, please run  
 `python eval.py --dataset {Pascal_VOC, Willow, SPair_71k}`
+
+### Results
+
+#### Willow
+Car  |Duck  | Face |Mbike | Wbott. | AVG  | 
+---- | ---- | ---- | ---- | ---- | -----|
+99.0 | 99.0 |  100 |  100 |  100 |99.6 | 
+
+
+#### Pascal VOC
+aero | bike | bird | boat | bot. | bus  | car  | cat  | cha. | cow  | tab.|  dog | hor. | mbi. | per. | pla. | she. | sofa | tra. |  tv  | AVG  |
+---- | ---- | ---- | ---- | ---- | -----| ---- | ---- | ---- | ---- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
+72.3 | 76.8 | 84.3 | 77.4 | 94.9 | 95.7 | 93.8 | 85.9 | 72.6 | 87.9 | 100 | 86.2 | 85.2 | 85.3 | 71.4 | 98.9 | 83.8 | 80.5 | 98.8 | 92.8 | 86.2 |
+
+#### SPair-71k
+aero | bike | bird | boat | bott.| bus  |  car | cat  | chair| cow  | dog | hor. | mbi. | per. | plant| she. | train|  tv  | AVG  |
+---- | ---- | ---- | ---- | ---- | -----| ---- | ---- | ---- | ---- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+70.3 | 61.3 | 90.3 | 88.0 | 70.9 | 98.0 | 90.0 | 74.6 | 78.5 | 85.0 | 74.5| 76.9 | 75.8 | 79.6 | 99.2 | 79.1 | 92.2 | 99.9 | 82.5 |
 
 ## BibTeX
 If you use this code for your research, please consider citing:
