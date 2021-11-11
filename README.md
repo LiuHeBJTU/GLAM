@@ -22,11 +22,11 @@ torch_geometric   1.7.2
 1. Download [SPair-71k](http://cvlab.postech.ac.kr/research/SPair-71k/data/SPair-71k.tar.gz) dataset
 2. Unzip the dataset and make sure it looks like `data/SPair71k`
 
-In implemention, the keypoint features are extracted by the standard VGG16-bn backbone networks in advance. The raw keypoint features for the three datasets are packed in the [KPT_features.zip](https://drive.google.com/file/d/14iApmo8u0XJ81-3OIz6Y-tVZAJaQokTT/view?usp=sharing). Unzip the package file and make sure it looks like `data/KPT_features`
+In implementation, the keypoint features are extracted by the standard VGG16-bn backbone networks in advance. The raw keypoint features for the three datasets are packed in the [KPT_features.zip](https://drive.google.com/file/d/14iApmo8u0XJ81-3OIz6Y-tVZAJaQokTT/view?usp=sharing). Unzip the package file and make sure it looks like `data/KPT_features`
 
 ## Experiments
 ### Training
-To train the model on different dataset, please run  
+To train the model on different datasets, please run  
 `python train.py --dataset {Pascal_VOC, Willow, SPair_71k}  --lr 0.0001`
 ### Testing
 The pretrained models are available on [[Google drive]](https://drive.google.com/file/d/1ndqEblJAPTfaJyPOU3mzn0BP51r0ouW4/view?usp=sharing). 
