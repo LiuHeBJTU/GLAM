@@ -46,6 +46,10 @@ aero | bike | bird | boat | bot. | bus  | car  | cat  | cha. | cow  | tab.|  dog
 ---- | ---- | ---- | ---- | ---- | -----| ---- | ---- | ---- | ---- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
 72.3 | 76.8 | 84.3 | 77.4 | 94.9 | 95.7 | 93.8 | 85.9 | 72.6 | 87.9 | 100 | 86.2 | 85.2 | 85.3 | 71.4 | 98.9 | 83.8 | 80.5 | 98.8 | 92.8 | 86.2 |
 
+##### visualization of representative graph patterns learnt from Pascal VOC
+![图片1](https://user-images.githubusercontent.com/86004891/141253010-0a6af61e-a046-464e-98a4-7305244cbc2a.png)
+
+
 #### SPair-71k
 aero | bike | bird | boat | bott.| bus  |  car | cat  | chair| cow  | dog | hor. | mbi. | per. | plant| she. | train|  tv  | AVG  |
 ---- | ---- | ---- | ---- | ---- | -----| ---- | ---- | ---- | ---- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
