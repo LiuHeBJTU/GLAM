@@ -2,7 +2,7 @@
 
 ## Overview of GLAM architecture
 ![image](https://user-images.githubusercontent.com/86004891/141059865-e6490804-6eae-4fdb-9499-ed4b36e5fa82.png)
-For more details, please download our paper on [arXiv](https://arxiv.org/abs/2109.00240). If you have any question on the code, please contact me via the E-mail: liuhe1996@bjtu.edu.cn
+For more details, please download our paper on [arXiv](https://arxiv.org/abs/2109.00240). If you have any question about the code, please contact me via the E-mail: liuhe1996@bjtu.edu.cn
 
 ## Requirements
 pytorch           1.8.1+cu111  
@@ -46,8 +46,9 @@ aero | bike | bird | boat | bot. | bus  | car  | cat  | cha. | cow  | tab.|  dog
 ---- | ---- | ---- | ---- | ---- | -----| ---- | ---- | ---- | ---- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
 72.3 | 76.8 | 84.3 | 77.4 | 94.9 | 95.7 | 93.8 | 85.9 | 72.6 | 87.9 | 100 | 86.2 | 85.2 | 85.3 | 71.4 | 98.9 | 83.8 | 80.5 | 98.8 | 92.8 | 86.2 |
 
-##### visualization of representative graph patterns learnt from Pascal VOC
-![图片1](https://user-images.githubusercontent.com/86004891/141253010-0a6af61e-a046-464e-98a4-7305244cbc2a.png)
+##### Visualization of representative graph patterns learnt from Pascal VOC
+![image](https://user-images.githubusercontent.com/86004891/141279508-a58c480b-ff21-4af7-ab86-8cda0d56062a.png)
+![image](https://user-images.githubusercontent.com/86004891/141280054-648d71ab-5776-445e-aea1-daf9c509aa28.png)
 
 
 #### SPair-71k
