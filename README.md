@@ -29,7 +29,7 @@ In implementation, the keypoint features are extracted by the standard VGG16-bn 
 To train the model on different datasets, please run  
 `python train.py --dataset {Pascal_VOC, Willow, SPair_71k}  --lr 0.0001`
 ### Testing
-The pretrained models are available on [[Google drive]](https://drive.google.com/file/d/1DsZl_VWmruVJ9W2cKaSP8ggtaRyHslOg/view?usp=sharing). 
+The pretrained models are available on [[Google drive]](https://drive.google.com/file/d/1lzrNEK07Z3NNI0paVgUFe1bYsjnFPfTX/view?usp=sharing). 
 To evaluate our model, please run  
 `python eval.py --dataset {Pascal_VOC, Willow, SPair_71k}`
 
