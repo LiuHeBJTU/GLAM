@@ -72,12 +72,12 @@ if __name__ == '__main__':
 
             match_matrix = GLAM(descs0, descs1, pts0, pts1, atten_mask, key_mask)
 
-            loss_tr, perm_predicted = loss_(outputs=match_matrix, targets=X, num_nodes_list=num_node_list)
+            loss_tr = loss_(outputs=match_matrix, targets=X, num_nodes_list=num_node_list)
             loss_tr.backward()
             optimizer.step()
 
             loss_train.append(loss_tr.data.cpu().numpy().item())
-            acc_train.append(accuracy(perm_predicted.data.cpu().numpy(), X.cpu().numpy(), num_node_list))
+            acc_train.append(accuracy(match_matrix.data.cpu().numpy(), X.cpu().numpy(), num_node_list))
 
             if (idx + 1) % 100 == 0:
                 print(dataset + " Epoch {:05d}, # {:05d}, loss_train {:.4f}, acc_train {:.4f},  LR {:.10f}".format(
