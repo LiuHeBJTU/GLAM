@@ -36,6 +36,6 @@ class Model(nn.Module):
             descs1, cross_BA = self.decoder(dec_input=descs1_, enc_output=descs0_, slf_attn_mask=atten_mask,
                                             dec_enc_attn_mask=atten_mask)
 
-        match_matrix = (torch.sum(cross_AB, dim=1) + torch.sum(cross_BA, dim=1).permute(0, 2, 1)) * 0.5
+        match_matrix = (torch.mean(cross_AB, dim=1) + torch.mean(cross_BA, dim=1).permute(0, 2, 1)) * 0.5
 
         return match_matrix
